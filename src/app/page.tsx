@@ -1,21 +1,32 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="mx-auto max-w-4xl px-6 py-16">
       {/* Hero */}
-      <section className="mb-16">
-        <h1 className="text-4xl font-bold text-navy mb-3">
-          Nathaniel Kerman
-        </h1>
-        <p className="text-xl text-slate-warm mb-6">
-          PhD Student in Astronomy &middot; University of Massachusetts Amherst
-        </p>
-        <p className="text-lg text-slate-warm leading-relaxed max-w-2xl">
-          I study exoplanet and brown dwarf formation using data from JWST,
-          ALMA, and other observatories. My work sits at the intersection of observational astronomy,
-          instrumentation, and scientific software development.
-        </p>
+      <section className="mb-16 flex flex-col sm:flex-row items-start gap-8">
+        <Image
+          src="/images/headshot.png"
+          alt="Nathaniel Kerman"
+          width={180}
+          height={225}
+          className="rounded-lg border border-border shrink-0"
+          priority
+        />
+        <div>
+          <h1 className="text-4xl font-bold text-navy mb-3">
+            Nathaniel Kerman
+          </h1>
+          <p className="text-xl text-slate-warm mb-6">
+            PhD Student in Astronomy &middot; University of Massachusetts Amherst
+          </p>
+          <p className="text-lg text-slate-warm leading-relaxed max-w-2xl">
+            I study exoplanet and brown dwarf formation using data from JWST,
+            ALMA, and other observatories. My work sits at the intersection of observational astronomy,
+            instrumentation, and scientific software development.
+          </p>
+        </div>
       </section>
 
       {/* Current Research */}
