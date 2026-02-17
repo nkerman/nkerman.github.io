@@ -1,0 +1,182 @@
+[
+  {
+    "title": "The IMAP-Lo Instrument",
+    "year": "2025",
+    "journal": "Space Science Reviews",
+    "type": "Journal Articles",
+    "doi": "10.1007/s11214-025-01234-x",
+    "bibcode": "2025SSRv..221..121S",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2025SSRv..221..121S"
+  },
+  {
+    "title": "Flux Calibration of the COS G160M Grating at Lifetime Position 6",
+    "year": "2024",
+    "journal": "Instrument Science Report COS 2024-16",
+    "type": "Instrument Science Reports",
+    "doi": null,
+    "bibcode": "2024cos..rept...16M",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2024cos..rept...16M"
+  },
+  {
+    "title": "Creation of the LAMPTAB reference file for use at Lifetime Position 6",
+    "year": "2023",
+    "journal": "Instrument Science Report COS 2023-9",
+    "type": "Instrument Science Reports",
+    "doi": null,
+    "bibcode": "2023cos..rept....9I",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023cos..rept....9I"
+  },
+  {
+    "title": "ISR 2023-28: Derivation of the COS FUV Dispersion Solutions at Lifetime Position 6",
+    "year": "2023",
+    "journal": "Instrument Science Report COS 2023-28",
+    "type": "Instrument Science Reports",
+    "doi": null,
+    "bibcode": "2023cos..rept...28F",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023cos..rept...28F"
+  },
+  {
+    "title": "Overview of COS Lifetime Position 6 Calibration",
+    "year": "2023",
+    "journal": "Instrument Science Report COS 2023-25",
+    "type": "Instrument Science Reports",
+    "doi": null,
+    "bibcode": "2023cos..rept...25S",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023cos..rept...25S"
+  },
+  {
+    "title": "Science with the Cosmic Origins Spectrograph into the 2030's",
+    "year": "2023",
+    "journal": "American Astronomical Society Meeting Abstracts #241",
+    "type": "Conference Abstracts",
+    "doi": null,
+    "bibcode": "2023AAS...24146202R",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023AAS...24146202R"
+  },
+  {
+    "title": "The G160M Spatial Resolution of the COS FUV channel at Lifetime Position 6",
+    "year": "2023",
+    "journal": "Instrument Science Report COS 2023-4",
+    "type": "Instrument Science Reports",
+    "doi": null,
+    "bibcode": "2023cos..rept....4K",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023cos..rept....4K"
+  },
+  {
+    "title": "The G160M Spectral Resolution of the COS FUV Channel at Lifetime Position 6",
+    "year": "2023",
+    "journal": "Instrument Science Report COS 2023-2",
+    "type": "Instrument Science Reports",
+    "doi": null,
+    "bibcode": "2023cos..rept....2K",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023cos..rept....2K"
+  },
+  {
+    "title": "Updated Status and Performance of the Cosmic Origins Spectrograph",
+    "year": "2023",
+    "journal": "American Astronomical Society Meeting Abstracts #241",
+    "type": "Conference Abstracts",
+    "doi": null,
+    "bibcode": "2023AAS...24146201F",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2023AAS...24146201F"
+  },
+  {
+    "title": "COS 2030: New Lifetime Positions for FUV Spectroscopy with the Cosmic Origins Spectrograph",
+    "year": "2022",
+    "journal": "American Astronomical Society Meeting #240",
+    "type": "Conference Abstracts",
+    "doi": null,
+    "bibcode": "2022AAS...24030402F",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2022AAS...24030402F"
+  },
+  {
+    "title": "COS FUV LP6 Calibration: Profiles, Traces, Sensitivities, Flat Fields, and Spatial Resolution",
+    "year": "2022",
+    "journal": "HST Proposal",
+    "type": "Other",
+    "doi": null,
+    "bibcode": "2022hst..prop16906F",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2022hst..prop16906F"
+  },
+  {
+    "title": "Mapping the COS LP6 Spectral Resolution",
+    "year": "2022",
+    "journal": "HST Proposal",
+    "type": "Other",
+    "doi": null,
+    "bibcode": "2022hst..prop16907K",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2022hst..prop16907K"
+  },
+  {
+    "title": "Updated Status and Performance of the Cosmic Origins Spectrograph (COS)",
+    "year": "2022",
+    "journal": "American Astronomical Society Meeting #240",
+    "type": "Conference Abstracts",
+    "doi": null,
+    "bibcode": "2022AAS...24030403K",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2022AAS...24030403K"
+  },
+  {
+    "title": "Enabling Ultraviolet Science into the 2030's with the Cosmic Origin Spectrograph",
+    "year": "2021",
+    "journal": "American Astronomical Society Meeting Abstracts #237",
+    "type": "Conference Abstracts",
+    "doi": null,
+    "bibcode": "2021AAS...23732608R",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021AAS...23732608R"
+  },
+  {
+    "title": "Extending the life of the Cosmic Origins Spectrograph (COS) with new lifetime positions",
+    "year": "2021",
+    "journal": "UV, X-Ray, and Gamma-Ray Space Instrumentation for Astronomy XXII",
+    "type": "Conference Papers",
+    "doi": "10.1117/12.2594922",
+    "bibcode": "2021SPIE11821E..1HS",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021SPIE11821E..1HS"
+  },
+  {
+    "title": "Jupyter Notebook Walkthroughs For Working With The Cosmic Origins Spectrograph",
+    "year": "2021",
+    "journal": "American Astronomical Society Meeting Abstracts #238",
+    "type": "Conference Abstracts",
+    "doi": null,
+    "bibcode": "2021AAS...23821606K",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021AAS...23821606K"
+  },
+  {
+    "title": "Updated Status and Performance of the Cosmic Origins Spectrograph",
+    "year": "2021",
+    "journal": "American Astronomical Society Meeting Abstracts #237",
+    "type": "Conference Abstracts",
+    "doi": null,
+    "bibcode": "2021AAS...23735001F",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021AAS...23735001F"
+  },
+  {
+    "title": "Updated Status And Performance Of The Cosmic Origins Spectrograph",
+    "year": "2021",
+    "journal": "American Astronomical Society Meeting Abstracts #238",
+    "type": "Conference Abstracts",
+    "doi": null,
+    "bibcode": "2021AAS...23821603P",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2021AAS...23821603P"
+  },
+  {
+    "title": "Characterizing the Evolving PSF of the EXPRES Spectrometer",
+    "year": "2020",
+    "journal": "American Astronomical Society Meeting Abstracts #235",
+    "type": "Conference Abstracts",
+    "doi": null,
+    "bibcode": "2020AAS...23517512K",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2020AAS...23517512K"
+  },
+  {
+    "title": "A Galaxy-scale Fountain of Cold Molecular Gas Pumped by a Black Hole",
+    "year": "2018",
+    "journal": "The Astrophysical Journal",
+    "type": "Journal Articles",
+    "doi": "10.3847/1538-4357/aad6dd",
+    "bibcode": "2018ApJ...865...13T",
+    "adsUrl": "https://ui.adsabs.harvard.edu/abs/2018ApJ...865...13T"
+  }
+]
