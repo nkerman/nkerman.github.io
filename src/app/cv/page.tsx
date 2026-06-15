@@ -47,6 +47,24 @@ export default function CV() {
         </div>
       </section>
 
+      {/* Honors & Awards */}
+      <section className="mb-10">
+        <h2 className="text-xl font-semibold text-navy border-b border-border pb-2 mb-4">
+          Honors &amp; Awards
+        </h2>
+        <div className="space-y-4">
+          <div>
+            <div className="flex justify-between">
+              <p className="font-medium text-navy">
+                NASA Graduate Research Fellowship Program (GRFP) &mdash; Honorable Mention
+              </p>
+              <p className="text-sm text-slate-warm">2025</p>
+            </div>
+            <p className="text-slate-warm">National Aeronautics and Space Administration</p>
+          </div>
+        </div>
+      </section>
+
       {/* Experience */}
       <section className="mb-10">
         <h2 className="text-xl font-semibold text-navy border-b border-border pb-2 mb-4">
@@ -89,7 +107,7 @@ export default function CV() {
           <p>Scientific data pipeline design</p>
           <p>UV / Optical / IR / mm instrumentation</p>
         </div>
-        <h2 className="text-xl font-semibold text-navy border-b border-border pb-2 mb-4">
+        <h2 className="text-xl font-semibold text-navy border-b border-border pb-2 mb-4 mt-8">
           Technical Skills
         </h2>
         <div className="grid sm:grid-cols-2 gap-x-8 gap-y-2 text-slate-warm">
@@ -107,26 +125,24 @@ export default function CV() {
         <h2 className="text-xl font-semibold text-navy border-b border-border pb-2 mb-4">
           Teaching
         </h2>
-        <div>
-          <div className="flex justify-between">
-            <p className="font-medium text-navy">
-              Instructor, ASTR 3800: Introduction to Scientific Data Analysis
-              and Computing
-            </p>
+        <div className="space-y-4">
+          <div>
+            <div className="flex justify-between">
+              <p className="font-medium text-navy">
+                Instructor, ASTR 3800: Introduction to Scientific Data Analysis
+                and Computing
+              </p>
+            </div>
+            <p className="text-slate-warm">University of Colorado Boulder</p>
           </div>
-          <p className="text-slate-warm">
-            University of Colorado Boulder
-          </p>
-        </div>
-        <div>
-          <div className="flex justify-between">
-            <p className="font-medium text-navy">
-              Teaching Assistant, ASTR 301: Writing in Astronomy
-            </p>
+          <div>
+            <div className="flex justify-between">
+              <p className="font-medium text-navy">
+                Teaching Assistant, ASTR 301: Writing in Astronomy
+              </p>
+            </div>
+            <p className="text-slate-warm">University of Massachusetts Amherst</p>
           </div>
-          <p className="text-slate-warm">
-            University of Massachusetts Amherst
-          </p>
         </div>
       </section>
 

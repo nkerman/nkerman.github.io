@@ -8,7 +8,7 @@ const projects = [
     status: "Current",
     where: "UMass Amherst",
     description:
-      "Using JWST near- and mid-infrared observations combined with ALMA millimeter data to study the formation and early evolution of substellar companions and free-floating planetary mass objects. Collaborates with Dr. Kim Ward-Duong (Smith College) and Dr. Kate Follette (Amherst College).",
+      "Using JWST near- and mid-infrared observations combined with ALMA millimeter data to study the formation and early evolution of substellar companions and free-floating planetary mass objects. Collaborates with advisors Dr. Kim Ward-Duong (Smith College) and Dr. Kate Follette (Amherst College).",
     tools: ["JWST NIRCam / NIRSpec / MIRI", "ALMA", "Python"],
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     status: "2024\u20132025",
     where: "LASP, CU Boulder",
     description:
-      "Contributed to the pipeline development for the IMAP-Lo / IMAP-Hi / IMAP-Ultra instruments aboard NASA's Interstellar Mapping and Acceleration Probe (IMAP) mission.",
+      "Contributed to the pipeline development for the IMAP-Lo / IMAP-Hi / IMAP-Ultra instruments aboard NASA's Interstellar Mapping and Acceleration Probe (IMAP) mission. Built the code to produce all-sky maps of the heliospheric energetic neutral atom (ENA) flux.",
     tools: ["Data pipeline development", "Solar and heliospheric physics", "IMAP", "Python"],
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     status: "2020\u20132022",
     where: "STScI",
     description:
-      "Led calibration efforts for Hubble's Cosmic Origins Spectrograph at a new detector lifetime position. Characterized the spectral and spatial resolution of the G160M grating and authored multiple Instrument Science Reports documenting the results.",
+      "Contributed to calibration efforts for Hubble's Cosmic Origins Spectrograph (COS). Led the effort to characterize the spectral and spatial resolution of the G160M grating at a new detector lifetime position and authored multiple Instrument Science Reports documenting the results.",
     tools: ["Hubble / COS", "Python"],
   },
   {

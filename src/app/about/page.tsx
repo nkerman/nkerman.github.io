@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 
 export const metadata: Metadata = { title: "About" };
 
@@ -59,8 +61,15 @@ export default function About() {
       {/* Bio */}
       <section className="mb-12">
         <p className="text-lg text-slate-warm leading-relaxed mb-4">
-          I am a PhD student in the Department of Astronomy at the University
-          of Massachusetts Amherst. My research focuses on understanding how
+          Hi there! I'm Nat Kerman, a PhD student in the <Link
+            href="https://www.umass.edu/astronomy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent underline"
+          >
+            Department of Astronomy
+          </Link>
+          &nbsp;at the University of Massachusetts Amherst. My research focuses on understanding how
           objects like exoplanets and brown dwarfs form, using multi-wavelength observations
           from JWST and ALMA.
         </p>
@@ -68,15 +77,47 @@ export default function About() {
           Before graduate school, I spent five years working on space telescope
           operations and scientific instrumentation &mdash; first at the Space
           Telescope Science Institute (STScI) supporting the Hubble Telescope&apos;s Cosmic Origins
-          Spectrograph, and then at the Laboratory for Atmospheric and Space
-          Physics (LASP) building data systems for heliophysics and climate missions.
+          Spectrograph (COS), and then at the Laboratory for Atmospheric and Space
+          Physics (LASP) building data systems for climate and heliophysics missions like{" "}
+          <Link
+            href="https://clarreo-pathfinder.larc.nasa.gov/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent underline"
+          >
+            CLARREO
+          </Link>
+          {" "}and{" "}
+          <Link
+            href="https://imap.princeton.edu/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent underline"
+          >
+            IMAP
+          </Link>.
         </p>
+
+        {/* LASP team photo */}
+        <figure className="mb-4">
+          <Image
+            src="/images/nat_lasp_team_shots.jpg"
+            alt="Nat with the CLARREO and IMAP teams at LASP, CU Boulder"
+            width={900}
+            height={400}
+            className="rounded-lg w-full object-cover"
+          />
+          <figcaption className="text-sm text-slate-warm mt-2 text-center">
+            Nat with the CLARREO (left) and IMAP (right) teams at LASP, CU Boulder
+          </figcaption>
+        </figure>
         <p className="text-lg text-slate-warm leading-relaxed">
           I have a background teaching scientific computing and data analysis.
           I taught the upper-level undergraduate course on
           scientific data analysis and computing at CU Boulder.
         </p>
       </section>
+
 
       {/* Timeline */}
       <section className="mb-12">

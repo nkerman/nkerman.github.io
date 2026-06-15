@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useCallback } from "react";
+import { useTheme } from "./ThemeProvider";
 
 interface Star {
   x: number;
@@ -13,6 +14,7 @@ interface Star {
 }
 
 export default function StarField() {
+  const { theme } = useTheme();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const starsRef = useRef<Star[]>([]);
   const animRef = useRef<number>(0);
@@ -62,7 +64,9 @@ export default function StarField() {
 
         ctx.beginPath();
         ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(200, 220, 255, ${alpha})`;
+        ctx.fillStyle = theme === "dark"
+          ? `rgba(200, 220, 255, ${alpha})`
+          : `rgba(26, 35, 50, ${alpha})`;
         ctx.fill();
       }
 
@@ -75,7 +79,7 @@ export default function StarField() {
       window.removeEventListener("resize", resize);
       cancelAnimationFrame(animRef.current);
     };
-  }, [initStars]);
+  }, [initStars, theme]);
 
   return (
     <canvas

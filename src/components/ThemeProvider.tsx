@@ -29,8 +29,9 @@ export default function ThemeProvider({
     const stored = localStorage.getItem("theme") as Theme | null;
     if (stored) {
       setTheme(stored);
-    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark");
+    } else {
+      const hour = new Date().getHours();
+      setTheme(hour < 7 || hour >= 19 ? "dark" : "light");
     }
   }, []);
 
